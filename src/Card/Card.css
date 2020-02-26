@@ -1,0 +1,90 @@
+.Card{
+
+    margin: 12px auto;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width:80%;
+    padding: 25px;
+}
+.Card:hover{
+
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+
+  }
+
+@media only screen and (min-width:768px){
+    .Card{
+        width:60%
+    }
+}
+
+.Card h1{
+    font-size: 22px;
+    color: orange;
+    font-weight: 600;
+}
+
+.Card h2{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+}
+
+.Card h3 {
+    font-size: 18px;
+    color: #008AB8;
+    font-weight: 600;
+
+}
+.Card h4 {
+    font-size: 16px;
+    line-height: 0px;
+    color: grey;
+    font-weight: 400;
+
+}
+
+.Card h5 {
+    font-size: 16px;
+    color:grey;
+    line-height: 0px;
+    font-weight: 500;
+
+}
+
+
+.ButtonStyle{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+
+    
+}
+
+@media only screen and (min-width:768px){
+    .ButtonStyle{
+       
+        width: 60%
+        
+    }
+}
+
+.LayoutStyle{
+
+    display: block;
+
+ 
+
+    
+}
+
+@media only screen and (min-width:500px){
+    .LayoutStyle{
+       
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+}

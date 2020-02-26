@@ -1,0 +1,15 @@
+.Selector{
+
+    margin: 12px auto;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width:100%;
+    cursor: pointer;
+    
+}
+
+@media only screen and (min-width:768px){
+    .Selector{
+        width:60%
+    }
+}
